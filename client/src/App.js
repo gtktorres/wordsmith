@@ -8,6 +8,7 @@ class App extends React.Component {
         super();
         this.state = {
             userId: "",
+            password: "",
             showLogin: true,
             isLoading: false,
             language: 'en',
@@ -18,14 +19,14 @@ class App extends React.Component {
 
     render() {
         
-        const userId = this.state;
+        const { userId,password } = this.state;
 
         return (
             
                 <Login
                   userId={userId}
+                  password={password}
                   handleInput={this.handleInput}
-                  connectToChatkit={this.connectToChatkit}
                 />
         );
     }
