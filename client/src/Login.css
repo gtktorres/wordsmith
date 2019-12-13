@@ -10,7 +10,7 @@
   .Border {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10rem;
+    margin-top: 15rem;
     background-color: lightblue;
     border-radius: 5em;
     border-width: 5px;
@@ -18,12 +18,50 @@
     padding: 20px;
     height: 30rem;
   }
-  
+  .Credentials{
+    margin-top: 2rem;
+  }
+  .username-input{
+    margin-left: 1rem;
+    margin-right: auto;
+    margin-top: 1rem;
+    background-color: lightblue;
+    border-radius: 5em;
+    border-width: 1px;
+    width: 15rem;
+    padding: 10px;
+    height: 1rem;
+    text-align: center;
+  }
+  .password-input{
+    margin-left: 1rem;
+    margin-right: auto;
+    margin-top: 1rem;
+    background-color: lightblue;
+    border-radius: 5em;
+    border-width: 1px;
+    width: 15rem;
+    padding: 10px;
+    height: 1rem;
+    text-align: center;
+  }
   .Header {
     font-style: bold;
     text-align: center;
-    height: 1rem;
-    color: purple;
+    height: 2rem;
+    color: #40396e;
+  }
+  .submit-btn {    
+    margin-left: 6.75rem;
+    margin-top: 1rem;
+    text-align: center;
+    border-radius: 5em;
+    border-width: 1px;
+    height: 3rem;
+    width: 5rem;
+    font-size: medium;
+    background-color: #40396e;
+
   }
   
   .App-port {
@@ -37,14 +75,7 @@
   .App-link {
     color: #09d3ac;
   }
-  
-  .About-Me {
-    text-align: center;
-    font-size: 1.5em;
-    color: purple;
-    width: 35%;
-  }
-  
+     
   .Card {
     margin-right: auto;
     margin-left: auto;
@@ -52,7 +83,7 @@
     width: 80%;
     font-size: 2em;
     font-style: bold;
-    color: purple;
+    color: #40396e;
     background-color: lightblue;
     border-radius: 1em;
     border-width: 1px;
@@ -63,14 +94,23 @@
     margin-left: auto;
     text-align: center;
     width: 80%;
-    font-size: 2em;
+    font-size: 1em;
     font-style: bold;
-    color: purple;
-    background-color: lightblue;
+    color: pink;
     border-radius: 5em;
     border-width: 1px;
   }
-  
+  h1 {
+    background-color: #40396e;
+    color: goldenrod;
+    font-style: bold;
+    text-align: center;
+    height: 3rem;
+    margin-bottom: 3rem;
+    border-radius: 5em;
+    border-width: 1rem;
+  }
+
   h2 {
     margin-right: auto;
     margin-left: auto;
@@ -78,8 +118,11 @@
     width: 10%;
     font-size: 2em;
     font-style: bold;
-    color: purple;
+    color: #40396e;
     background-color: lightblue;
     border-radius: 5em;
     border-width: 1px;
+  }
+  .Create{
+    margin-bottom: 1rem;
   }
