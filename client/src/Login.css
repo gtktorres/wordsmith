@@ -100,6 +100,7 @@
     border-radius: 5em;
     border-width: 1px;
   }
+  
   h1 {
     background-color: #40396e;
     color: goldenrod;
@@ -123,6 +124,6 @@
     border-radius: 5em;
     border-width: 1px;
   }
-  .Create{
-    margin-bottom: 1rem;
+  .Create {
+    text-align: center;
   }
