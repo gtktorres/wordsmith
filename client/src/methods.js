@@ -69,7 +69,21 @@ function connectToRoom(id = 'ce85a77e-4ed9-479e-a4cf-40410361796f') {
     })
     .catch(console.error);
 }
+function connectToAccount(event) {
+  event.preventDefault();
 
+  const {userId, password} = this.state;
+
+  if (userId === null || userId.trim() === '' || password === null || password.trim() === '') {
+    return( <Account /> );
+  }
+
+  this.setState({
+    isLoading: true,
+  });
+
+  
+}
 function connectToChatkit(event) {
   event.preventDefault();
 
@@ -213,4 +227,5 @@ export {
   connectToChatkit,
   sendDM,
   updateLanguage,
+  connectToAccount,
 };
